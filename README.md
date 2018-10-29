@@ -1,2 +1,3 @@
 # release-tool
-CLI release tool for creating new releases on GitHub for Node.js projects.
+
+A CLI tool for creating new GitHub releases on Node.js projects.
