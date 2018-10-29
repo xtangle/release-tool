@@ -1,0 +1,33 @@
+{
+  "name": "release-tool",
+  "version": "0.0.1",
+  "description": "CLI release tool for creating new releases on GitHub for Node.js projects.",
+  "private": false,
+  "author": "xtangle <jackyxu07@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/xtangle/release-tool.git",
+  "bin": "./bin/release-tool.js",
+  "main": "./lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.21",
+    "readline-sync": "^1.4.9",
+    "request-promise": "^4.2.2",
+    "semver": "^5.6.0",
+    "shelljs": "^0.8.2"
+  }
+}
