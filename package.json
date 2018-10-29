@@ -1,12 +1,14 @@
 {
-  "name": "release-tool",
+  "name": "@xtangle/release-tool",
   "version": "0.0.1",
   "description": "CLI release tool for creating new releases on GitHub for Node.js projects.",
   "private": false,
   "author": "xtangle <jackyxu07@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/xtangle/release-tool.git",
-  "bin": "./bin/release-tool.js",
+  "bin": {
+    "release-tool": "./bin/release-tool.js"
+  },
   "main": "./lib/index.js",
   "files": [
     "bin",

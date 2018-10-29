@@ -1,3 +1,3 @@
-const releaseTool = require('../lib');
+#!/usr/bin/env node
 
-releaseTool();
+require('../lib')();
