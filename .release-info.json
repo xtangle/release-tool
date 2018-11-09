@@ -1,0 +1,24 @@
+{
+  "dump_configs": "tmp/configs.json",
+  "changelog": {
+    "update": true
+  },
+  "github": {
+    "branch": "refactor",
+    "remote": "https://github.com/xtangle/release-tool.git",
+    "strict": false,
+    "token_ref": "GITHUB_TOKEN",
+    "assets": ["CHANGELOG.md", "conf/*.json"]
+  },
+  "npm": {
+    "update": true
+  },
+  "hooks": {
+    "pre_commit": {
+      "command": "echo In pre-commit hook: ${name} ${github.user}"
+    },
+    "pre_release": {
+      "command": "echo In pre-release hook: ${name} ${github.user}"
+    }
+  }
+}

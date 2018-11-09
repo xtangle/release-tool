@@ -13,6 +13,7 @@
       "error",
       120
     ],
+    "no-param-reassign": "off",
     "object-curly-newline": [
       "error",
       {

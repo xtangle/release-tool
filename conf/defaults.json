@@ -1,0 +1,40 @@
+{
+  "name": null,
+  "new_version": null,
+  "old_version": null,
+  "config": ".release-info.json",
+  "dump_configs": null,
+  "changelog": {
+    "update": true,
+    "path": "CHANGELOG.md"
+  },
+  "github": {
+    "release": true,
+    "strict": true,
+    "branch": "master",
+    "user": null,
+    "pass": null,
+    "token_ref": null,
+    "remote": null,
+    "run_hooks": true,
+    "assets": null
+  },
+  "npm": {
+    "update": true,
+    "package": "package.json"
+  },
+  "hooks": {
+    "pre_commit": {
+      "command": null,
+      "silent": false
+    },
+    "pre_release": {
+      "command": null,
+      "silent": false
+    }
+  },
+  "prompt": {
+    "pre_commit": true,
+    "pre_release": true
+  }
+}

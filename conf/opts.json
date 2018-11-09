@@ -1,0 +1,15 @@
+{
+  "boolean": [
+    "changelog.update",
+    "github.release",
+    "github.strict",
+    "github.run_hooks",
+    "github.pause_before_commit",
+    "github.pause_before_release",
+    "npm.update",
+    "hooks.pre_commit.silent",
+    "hooks.pre_release.silent",
+    "prompt.pre_commit",
+    "prompt.pre_release"
+  ]
+}
