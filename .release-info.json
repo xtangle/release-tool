@@ -1,5 +1,5 @@
 {
-  "dump_configs": "tmp/configs.json",
+  "dump_configs": ".tmp/configs.json",
   "changelog": {
     "update": true
   },
@@ -15,7 +15,10 @@
   },
   "hooks": {
     "pre_commit": {
-      "command": "echo In pre-commit hook: ${name} ${github.user}"
+      "command": [
+        "echo In pre-commit hook 1: ${name} ${github.user}",
+        "echo In pre-commit hook 2: ${name} ${github.user}"
+      ]
     },
     "pre_release": {
       "command": "echo In pre-release hook: ${name} ${github.user}"
