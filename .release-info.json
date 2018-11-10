@@ -4,7 +4,7 @@
     "update": true
   },
   "github": {
-    "branch": "refactor",
+    "branch": "master",
     "remote": "https://github.com/xtangle/release-tool.git",
     "strict": false,
     "token_ref": "GITHUB_TOKEN",
