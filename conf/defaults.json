@@ -26,11 +26,11 @@
   "hooks": {
     "pre_commit": {
       "command": null,
-      "silent": false
+      "silent": true
     },
     "pre_release": {
       "command": null,
-      "silent": false
+      "silent": true
     }
   },
   "prompt": {
