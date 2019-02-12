@@ -1,6 +1,6 @@
 {
   "name": "@xtangle/release-tool",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A CLI tool for creating GitHub releases for Node.js projects.",
   "private": false,
   "author": "xtangle <jackyxu07@gmail.com>",
@@ -21,9 +21,9 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.16.0"
   },
   "dependencies": {
     "mime-types": "^2.1.21",
@@ -31,7 +31,7 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "semver": "^5.6.0",
-    "shelljs": "^0.8.2",
-    "yargs-parser": "^11.0.0"
+    "shelljs": "^0.8.3",
+    "yargs-parser": "^13.0.0"
   }
 }
