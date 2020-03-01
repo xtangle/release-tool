@@ -32,6 +32,6 @@
     "request-promise": "^4.2.2",
     "semver": "^6.0.0",
     "shelljs": "^0.8.3",
-    "yargs-parser": "^14.0.0"
+    "yargs-parser": "^17.1.0"
   }
 }
