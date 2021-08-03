@@ -18,7 +18,9 @@
     "node": ">=7.6"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
@@ -33,5 +35,7 @@
     "semver": "^6.0.0",
     "shelljs": "^0.8.3",
     "yargs-parser": "^14.0.0"
-  }
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
