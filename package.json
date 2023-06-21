@@ -30,7 +30,7 @@
     "readline-sync": "^1.4.9",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "semver": "^6.0.0",
+    "semver": "^7.5.2",
     "shelljs": "^0.8.3",
     "yargs-parser": "^14.0.0"
   }
